@@ -8,6 +8,7 @@ export type EventData = {
   value: number
 }
 
+
 type Data = {
   events: EventData[]
 }
