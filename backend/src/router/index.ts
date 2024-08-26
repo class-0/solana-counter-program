@@ -5,6 +5,7 @@ const router = express.Router()
 
 router.get("/api", (req, res) => {
   res.json(db.data.events)
-})
+}
+)
 
 export default router
